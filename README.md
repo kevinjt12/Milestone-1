@@ -8,9 +8,9 @@ This class contains 3 attributes:
 - *newWordCount*
 - *statementCount* 
 
-*orgWordCount* - This attribute is a public integer and stores the number of words in the article **before** removing stop words.<br>
-*newWordCount* - This attribute is a public integer and stores the number of words in the article **after** removing stop words.<br> 
-*statementCount* - This attribute is a public integer and stores the number of statements (sentences) that are in the article.<br>
+*orgWordCount* - This attribute is a public integer that stores the number of words in the article **before** removing stop words.<br>
+*newWordCount* - This attribute is a public integer that stores the number of words in the article **after** removing stop words.<br> 
+*statementCount* - This attribute is a public integer that stores the number of statements (sentences) that are in the article.<br>
 
 This class contains 2 methods: 
 - *getWordCount*
