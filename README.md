@@ -3,24 +3,29 @@
 ## Group Members: Kevin Torrealba, Nicholas Murphy, Kevin Carcamo
 
 ### Main Class
-The `Main.java` file serves as the entry point of the program. It is responsible for interacting with the user and passing the necessary data to other parts of the application.
 
-#### Key Functions:
-- **User Interaction**: The program prompts the user to input a directory path where the article files are stored.
-- **Data Handling**: Once the user provides the directory path, it is passed to the `ArticleProcessor` class for file reading and further processing.
+The `Main` class serves as the starting point of the program, handling user input and initiating the process of reading and processing articles.
 
-The purpose of this class is to gather input from the user and initiate the file processing by calling the appropriate method in the `ArticleProcessor` class. This ensures that the user can specify the location of the files, and the program will handle the rest of the processing from there.
+### Key Functions:
+- **User Interaction**: The class prompts the user to input the directory path where article files are stored.
+- **Process Initialization**: It passes the user-provided directory path to the `ArticleProcessor` class to start reading and processing the files.
+
+The `Main` class is the entry point for the program, ensuring that user input is gathered before starting the core text processing tasks performed by other classes.
 
 ### ArticleProcessor Class
 
-The `ArticleProcessor` class is responsible for reading and processing the files from the directory provided by the user. It handles the core functionality of the project, including reading article files, counting words, and processing the text.
+The `ArticleProcessor` class is responsible for reading and processing the article files in the directory provided by the user. It performs key tasks such as file reading, stop word removal, and generating word frequency statistics.
 
-#### Key Functions:
-- **File Reading**: The class takes a directory path as input and reads all the article files within that directory.
-- **Text Processing**: It processes the text in each article by counting the total number of words, removing stop words, and counting the number of statements (sentences) in the articles.
-- **Statistics Generation**: After processing, the class gathers the relevant statistics such as original word count, new word count (after stop words are removed), and statement count.
+### Fields:
+- **`stopWords`**: A static list that stores the stop words used for filtering out common words from the text.
+- **`fileList`**: A static array of `File` objects that stores the list of files found in the specified directory.
 
-The `ArticleProcessor` is the core component that performs the main processing tasks for the articles, preparing the data for analysis and generating statistics based on the text.
+### Methods:
+- **`readFiles(String directoryPath)`**: This static method reads all the files in the provided directory, processes each file's content, and calls other methods to analyze the text. It prints the original text and processes it to remove stop words, count words, and rank words by frequency.
+  
+- **`removeStopWords(String outString)`**: This static method removes stop words from the provided text (`outString`) by comparing each word with a predefined list of stop words. It returns the cleaned string, which no longer contains stop words, and prints the cleaned version of the text.
+
+The `ArticleProcessor` class manages the entire text processing workflow, from reading files and removing stop words to generating word frequency statistics. It acts as the central component for processing and analyzing the content of the article files.
 
 ### Statistics Class
 
