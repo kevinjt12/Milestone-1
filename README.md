@@ -1,7 +1,7 @@
 # Semester Project: Milestone 1
 
 ## Group Members: Kevin Torrealba, Nicholas Murphy, Kevin Carcamo
-
+Kevin Carcamo
 ### Statistics Class
 This class contains 3 attributes:
 - *orgWordCount* 
