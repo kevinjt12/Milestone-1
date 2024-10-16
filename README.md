@@ -22,10 +22,6 @@ The `ArticleProcessor` class is responsible for reading and processing the files
 
 The `ArticleProcessor` is the core component that performs the main processing tasks for the articles, preparing the data for analysis and generating statistics based on the text.
 
-# Semester Project: Milestone 1
-
-## Group Members: Kevin Torrealba, Nicholas Murphy, Kevin Carcamo
-
 ### Statistics Class
 This class is responsible for calculating the number of words and statements of each article after being processed by the ArticleProcessor class.<br>
 
