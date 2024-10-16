@@ -23,21 +23,33 @@ The `ArticleProcessor` class is responsible for reading and processing the files
 The `ArticleProcessor` is the core component that performs the main processing tasks for the articles, preparing the data for analysis and generating statistics based on the text.
 
 ### Statistics Class
-This class is responsible for calculating the number of words and statements of each article after being processed by the ArticleProcessor class.<br>
 
-*This class contains 3 attributes:*
-- *orgWordCount* 
-- *newWordCount*
-- *statementCount* 
+The `Statistics` class is responsible for calculating basic textual statistics such as word count and statement count.
 
-**orgWordCount** - This attribute is a public integer that stores the number of words in the article **before** removing stop words.<br>
-**newWordCount** - This attribute is a public integer that stores the number of words in the article **after** removing stop words.<br> 
-**statementCount** - This attribute is a public integer that stores the number of statements (sentences) that are in the article.<br>
+### Fields:
+- `orgWordCount`: Stores the original word count of the text.
+- `newWordCount`: Stores the word count after removing stop words.
+- `statementCount`: Stores the number of statements in the text.
 
-*This class contains 2 methods:*
-- *getWordCount*
-- *getStatementCount*
+### Methods:
+- **`getWordCount(String outString, String stopWordsString)`**: This static method calculates the total number of words in the original text (`outString`) and the number of words remaining after stop words are removed (`stopWordsString`). It prints both values.
+- **`getStatementCount(String outString)`**: This static method calculates the number of statements in the text by splitting the text based on punctuation (`.`, `!`, `?`) and prints the count.
 
-**getWordCount** - This method requires 2 Strings as parameters (the String of words of the articles and the String of words after removing stop words from the article). This method will use these 2 Strings to calculate the number of words and assign them to *orgWordCount* and *newWordCount* attributes respectively. This method is public and returns void.<br>
+### FrequencyRanker Class
 
-**getStatementCount** - This method requires 1 String as a parameter (the String of words of the articles). It will use this method to split the String at punctuation marks (.!?), calculate the number of statements present in each article, and assign that number to the *statementCount* attribute. This method is public and returns void.<br>
+The `FrequencyRanker` class ranks words based on their frequency in a given text and stores the results in a list.
+
+### Fields:
+- `words`: A static list that holds all words from the text (not used directly in the methods provided).
+- `wordCountList`: A static list of `WordCount` objects that stores each unique word and its frequency in the text.
+
+### Methods:
+- **`rankWords(String cleanString)`**: This static method splits the provided `cleanString` into words, counts the frequency of each word, and sorts the words in descending order of frequency. It prints the ranked words and their frequencies.
+
+### Nested Class:
+- **`WordCount`**: This class represents a word and its associated frequency.
+  - **Fields:**
+    - `word`: The word being counted.
+    - `count`: The frequency of the word.
+  - **Constructor:**
+    - `WordCount(String word, int count)`: Initializes a new `WordCount` object with the given word and frequency.
