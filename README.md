@@ -58,3 +58,6 @@ The `FrequencyRanker` class ranks words based on their frequency in a given text
     - `count`: The frequency of the word.
   - **Constructor:**
     - `WordCount(String word, int count)`: Initializes a new `WordCount` object with the given word and frequency.
+
+## UML Diagram
+![](/Users/kevintorrealba/ProjectLibrary/UML_Diagram.png)
