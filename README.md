@@ -61,3 +61,7 @@ The `FrequencyRanker` class ranks words based on their frequency in a given text
 
 ## UML Diagram
 <img width="852" alt="UML_Diagram" src="https://github.com/user-attachments/assets/ba605c2a-0437-454c-9fcf-7d1a05399f9f">
+
+# Semester Project: Milestone 2
+
+<img width="779" alt="Screenshot 2024-11-06 at 11 38 18 AM" src="https://github.com/user-attachments/assets/3599444c-cce1-476f-b9e2-3495ee740d8b">
