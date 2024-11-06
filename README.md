@@ -64,4 +64,10 @@ The `FrequencyRanker` class ranks words based on their frequency in a given text
 
 # Semester Project: Milestone 2
 
+
+### ArticleProcessor Class
+In this `ArticleProcessor` was updated with two fields and one method so that it may analyze the sentiment per article.
+
+### Frequency Ranker
+
 ![Milestone 1](https://github.com/user-attachments/assets/d570213e-8b8d-4800-9dbe-2a14ed2ccf27)
