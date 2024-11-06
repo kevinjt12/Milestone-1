@@ -64,4 +64,4 @@ The `FrequencyRanker` class ranks words based on their frequency in a given text
 
 # Semester Project: Milestone 2
 
-<img width="779" alt="Screenshot 2024-11-06 at 11 38 18 AM" src="https://github.com/user-attachments/assets/3599444c-cce1-476f-b9e2-3495ee740d8b">
+![Milestone 1](https://github.com/user-attachments/assets/d570213e-8b8d-4800-9dbe-2a14ed2ccf27)
