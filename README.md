@@ -70,4 +70,10 @@ In this `ArticleProcessor` was updated with two fields and one method so that it
 
 ### Frequency Ranker
 
+
+## UML Diagram for Milestone 2
 ![Milestone 1](https://github.com/user-attachments/assets/d570213e-8b8d-4800-9dbe-2a14ed2ccf27)
+
+## Milestone 2 Example Outputs
+<img width="363" alt="Screenshot 2024-11-06 at 11 52 31 AM" src="https://github.com/user-attachments/assets/2a0182b1-7d0d-4801-8470-c87ff15849cd">
+<img width="359" alt="Screenshot 2024-11-06 at 11 53 01 AM" src="https://github.com/user-attachments/assets/964bcd61-17a7-4681-9e24-54a03d4a6d1e">
