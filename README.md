@@ -17,7 +17,7 @@ The `Main` class is the entry point for the program, ensuring that user input is
 The `ArticleProcessor` class is responsible for reading and processing the article files in the directory provided by the user. It performs key tasks such as file reading, stop word removal, and generating word frequency statistics.
 
 ### Fields:
-- **`stopWords`**: A static list that stores the stop words used for filtering out common words from the text.
+- **`stopWords`**: A static array list that stores the stop words used for filtering out common words from the text.
 - **`fileList`**: A static array of `File` objects that stores the list of files found in the specified directory.
 
 ### Methods:
@@ -66,7 +66,12 @@ The `FrequencyRanker` class ranks words based on their frequency in a given text
 
 
 ### ArticleProcessor Class
-In this `ArticleProcessor` was updated with two fields and one method so that it may analyze the sentiment per article.
+In this milestone `ArticleProcessor` was updated with two additional fields and one additional method so that it may analyze the sentiment per article.
+
+### New Additional Fields:
+- **`positiveWords`**: A static array list that stores the positive words used for analyzing the sentiment of the text.
+- **`negativeWords`**: A static array list that stores the negative words used for analyzing the sentiment of the text.
+
 
 ### Frequency Ranker
 
