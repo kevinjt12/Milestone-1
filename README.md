@@ -63,7 +63,7 @@ The `FrequencyRanker` class ranks words based on their frequency in a given text
 <img width="852" alt="UML_Diagram" src="https://github.com/user-attachments/assets/ba605c2a-0437-454c-9fcf-7d1a05399f9f">
 
 # Semester Project: Milestone 2
-
+In this milestone we've updated the program to be able to determine which article per topic uses the richest vocabulary. Additionally, the program is also able to print the top 3 words per each article. Lastly, the code was updated so that the program can now analyze the sentiment of each article and determine whether it is positive or negative. 
 
 ### ArticleProcessor Class
 In this milestone `ArticleProcessor` was updated with two additional fields and one additional method so that it may analyze the sentiment per article.
@@ -72,6 +72,8 @@ In this milestone `ArticleProcessor` was updated with two additional fields and 
 - **`positiveWords`**: A static array list that stores the positive words used for analyzing the sentiment of the text.
 - **`negativeWords`**: A static array list that stores the negative words used for analyzing the sentiment of the text.
 
+### New Additional Method:
+- **`analyzeSentiment(String text)`**: This static method 
 
 ### Frequency Ranker
 
