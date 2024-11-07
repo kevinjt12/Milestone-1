@@ -84,3 +84,5 @@ In this milestone `ArticleProcessor` was updated with two additional fields and 
 ## Milestone 2 Example Outputs
 <img width="363" alt="Screenshot 2024-11-06 at 11 52 31 AM" src="https://github.com/user-attachments/assets/2a0182b1-7d0d-4801-8470-c87ff15849cd">
 <img width="359" alt="Screenshot 2024-11-06 at 11 53 01 AM" src="https://github.com/user-attachments/assets/964bcd61-17a7-4681-9e24-54a03d4a6d1e">
+<img width="356" alt="Screenshot 2024-11-07 at 10 43 21 AM" src="https://github.com/user-attachments/assets/0583a07e-1af1-49aa-806d-daa68aae2d5d">
+
