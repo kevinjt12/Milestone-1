@@ -1,8 +1,8 @@
 # Semester Project: Milestone 1
 
-## Group Members: Kevin Torrealba, Nicholas Murphy, Kevin Carcamo
+### Group Members: Kevin Torrealba, Nicholas Murphy, Kevin Carcamo
 
-### Main Class
+## Main Class
 
 The `Main` class serves as the starting point of the program, handling user input and initiating the process of reading and processing articles.
 
@@ -12,12 +12,12 @@ The `Main` class serves as the starting point of the program, handling user inpu
 
 The `Main` class is the entry point for the program, ensuring that user input is gathered before starting the core text processing tasks performed by other classes.
 
-### ArticleProcessor Class
+## ArticleProcessor Class
 
 The `ArticleProcessor` class is responsible for reading and processing the article files in the directory provided by the user. It performs key tasks such as file reading, stop word removal, and generating word frequency statistics.
 
 ### Fields:
-- **`stopWords`**: A static array list that stores the stop words used for filtering out common words from the text.
+- **`stopWords`**: A static arraylist that stores the stop words used for filtering out common words from the text.
 - **`fileList`**: A static array of `File` objects that stores the list of files found in the specified directory.
 
 ### Methods:
@@ -27,31 +27,31 @@ The `ArticleProcessor` class is responsible for reading and processing the artic
 
 The `ArticleProcessor` class manages the entire text processing workflow, from reading files and removing stop words to generating word frequency statistics. It acts as the central component for processing and analyzing the content of the article files.
 
-### Statistics Class
+## Statistics Class
 
 The `Statistics` class is responsible for calculating basic textual statistics such as word count and statement count.
 
 ### Fields:
-- `orgWordCount`: Stores the original word count of the text.
-- `newWordCount`: Stores the word count after removing stop words.
-- `statementCount`: Stores the number of statements in the text.
+- **`orgWordCount`**: Stores the original word count of the text.
+- **`newWordCount`**: Stores the word count after removing stop words.
+- **`statementCount`**: Stores the number of statements in the text.
 
 ### Methods:
 - **`getWordCount(String outString, String stopWordsString)`**: This static method calculates the total number of words in the original text (`outString`) and the number of words remaining after stop words are removed (`stopWordsString`). It prints both values.
 - **`getStatementCount(String outString)`**: This static method calculates the number of statements in the text by splitting the text based on punctuation (`.`, `!`, `?`) and prints the count.
 
-### FrequencyRanker Class
+## FrequencyRanker Class
 
 The `FrequencyRanker` class ranks words based on their frequency in a given text and stores the results in a list.
 
 ### Fields:
-- `words`: A static list that holds all words from the text (not used directly in the methods provided).
-- `wordCountList`: A static list of `WordCount` objects that stores each unique word and its frequency in the text.
+- **`words`**: A static list that holds all words from the text (not used directly in the methods provided).
+- **`wordCountList`**: A static list of `WordCount` objects that stores each unique word and its frequency in the text.
 
 ### Methods:
 - **`rankWords(String cleanString)`**: This static method splits the provided `cleanString` into words, counts the frequency of each word, and sorts the words in descending order of frequency. It prints the ranked words and their frequencies.
 
-### Nested Class:
+## Nested Class:
 - **`WordCount`**: This class represents a word and its associated frequency.
   - **Fields:**
     - `word`: The word being counted.
@@ -65,23 +65,27 @@ The `FrequencyRanker` class ranks words based on their frequency in a given text
 # Semester Project: Milestone 2
 In this milestone we've updated the program to be able to determine which article per topic uses the richest vocabulary. Additionally, the program is also able to print the top 3 words per each article. Lastly, the code was updated so that the program can now analyze the sentiment of each article and determine whether it is positive or negative. 
 
-### ArticleProcessor Class
+## ArticleProcessor Class
 In this milestone `ArticleProcessor` was updated with two additional fields and one additional method so that it may analyze the sentiment per article.
 
 ### New Additional Fields:
-- **`positiveWords`**: A static array list that stores the positive words used for analyzing the sentiment of the text.
-- **`negativeWords`**: A static array list that stores the negative words used for analyzing the sentiment of the text.
+- **`positiveWords`**: A static arraylist that stores the positive words used for analyzing the sentiment of the text.
+- **`negativeWords`**: A static arraylist that stores the negative words used for analyzing the sentiment of the text.
 
-### New Additional Method
-- **`analyzeSentiment(String text)`**: This static method performs a basic sentiment analysis on the input text by counting occurrences of positive and negative words. It loads positive and negative word lists from files, then counts how many times words in the text match these lists. It prints the counts for positive and negative words and determines an overall sentiment as Positive, Negative, or Neutral.
+### New Additional Method:
+- **`analyzeSentiment(String text)`**: This static method performs a basic sentiment analysis on the input text by counting occurrences of positive and negative words. It loads positive and negative word lists from files of provided directories, then counts how many times words in the text match these lists. It prints the counts for positive and negative words and determines an overall sentiment as Positive, Negative, or Neutral.
 
-### Frequency Ranker Class
+## FrequencyRanker Class
 In this milestone `Frequency Ranker` was updated with one additional method and two fields. Additionally, the `rankWords` method was tweaked to fulfill the requirements for this milestone.
 
+### New Additional Fields:
+- **`vocabCount`**: A static int used to keep a count of each unique word, regardless of frequency, per article. 
+- **`vocabCountList`**: A static arraylist that stores the negative words used for analyzing the sentiment of the text.
 
-
-
-## UML Diagram for Milestone 2
+### New Additional Method:
+- **`getRichestVocab()`**: This static method is called from the `ArticleProcessor` class and it identifies the article with the richest vocabulary by finding the entry in `vocabCountList` with the highest unique word count. It prints the number of the article (1-3) with the most diverse vocabulary.
+  
+## Milestone 2 UML Diagram 
 ![Milestone 1](https://github.com/user-attachments/assets/d570213e-8b8d-4800-9dbe-2a14ed2ccf27)
 
 ## Milestone 2 Example Outputs
