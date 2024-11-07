@@ -72,8 +72,8 @@ In this milestone `ArticleProcessor` was updated with two additional fields and 
 - **`positiveWords`**: A static array list that stores the positive words used for analyzing the sentiment of the text.
 - **`negativeWords`**: A static array list that stores the negative words used for analyzing the sentiment of the text.
 
-### New Additional Method:
-- **`analyzeSentiment(String text)`**: This static method 
+### New Additional Method
+- **`analyzeSentiment(String text)`**: This static method scans through two provided directories, one for the positive words and the other for the negative words. This method will then loop through 
 
 ### Frequency Ranker
 
