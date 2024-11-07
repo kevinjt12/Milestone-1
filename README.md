@@ -73,9 +73,12 @@ In this milestone `ArticleProcessor` was updated with two additional fields and 
 - **`negativeWords`**: A static array list that stores the negative words used for analyzing the sentiment of the text.
 
 ### New Additional Method
-- **`analyzeSentiment(String text)`**: This static method scans through two provided directories, one for the positive words and the other for the negative words. This method will then loop through 
+- **`analyzeSentiment(String text)`**: This static method performs a basic sentiment analysis on the input text by counting occurrences of positive and negative words. It loads positive and negative word lists from files, then counts how many times words in the text match these lists. It prints the counts for positive and negative words and determines an overall sentiment as Positive, Negative, or Neutral.
 
-### Frequency Ranker
+### Frequency Ranker Class
+In this milestone `Frequency Ranker` was updated with one additional method and two fields. Additionally, the `rankWords` method was tweaked to fulfill the requirements for this milestone.
+
+
 
 
 ## UML Diagram for Milestone 2
