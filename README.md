@@ -93,3 +93,4 @@ In this milestone `Frequency Ranker` was updated with one additional method and 
 <img width="359" alt="Screenshot 2024-11-06 at 11 53 01 AM" src="https://github.com/user-attachments/assets/964bcd61-17a7-4681-9e24-54a03d4a6d1e">
 <img width="356" alt="Screenshot 2024-11-07 at 10 43 21 AM" src="https://github.com/user-attachments/assets/0583a07e-1af1-49aa-806d-daa68aae2d5d">
 
+# Semester Project: Milestone 3
