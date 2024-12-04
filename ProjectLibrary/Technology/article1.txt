@@ -1,0 +1,33 @@
+ChatGPT remembers things about you now. But you can switch its memory off.
+
+ChatGPT might be better at listening to you than your friends.
+
+OpenAI continues to plug new features and options into its AI-powered ChatGPT bot, and one of the latest to arrive is ‘memories’. They’re exactly what they sound like: things ChatGPT will remember about what you know, what you like, and how you want it to respond.
+
+“Remembering things you discuss across all chats saves you from having to repeat information and makes future conversations more helpful,” says OpenAI. The feature is now available to all ChatGPT users on both free and paid plans.
+
+For the privacy-conscious, this might set off a few alarm bells—but if you’d rather every conversation with ChatGPT was a blank slate, you can disable memories. Here we’ll explain how ChatGPT memories work, and how you can control what the AI bot does and doesn’t remember.
+
+To remember, or not to remember
+
+This memory feature in ChatGPT is completely customizable, as we’ll explain below—you can stop the bot from remembering anything, or you can be selective about what is and what isn’t logged in its memory banks. Before you dive in, though, it might be worth thinking about how much use you want to get out of the feature.
+
+As OpenAI says, it can be helpful for ChatGPT to remember certain things: how you want meetings summarized, or the kind of activities your kids like, or your movie preferences. You can save a lot of typing (or talking) if the bot already knows you reasonably well, rather than having to explain from scratch each time.
+
+There are obviously privacy implications, though, and you don’t necessarily want ChatGPT logging details about your personal life and individual tastes. There’s always the chance someone else could gain access to your ChatGPT account and start digging through your memories, or that ChatGPT’s databases would be leaked.
+
+Ultimately, you’re putting a serious amount of trust in OpenAI to handle your data responsibly—just as you are with Google, Apple, Microsoft, Meta, Amazon, and others whenever you use one of their services. There’s always going to be a trade-off to consider between privacy and usefulness.
+
+We’d recommend not disclosing anything really important or sensitive to ChatGPT, period—whether or not it’s being saved as a memory. However, for certain preferences and bits of information, you should find the convenience of ChatGPT memories makes them worthwhile, and you can edit them at any time.
+
+How to manage ChatGPT memories
+
+Memories are on by default when you’re using ChatGPT, though it won’t necessarily record everything: You can either specifically tell it when it needs to remember something, or you can let it try and figure out when it needs to commit something to its memory banks. When this happens, you’ll see a little Memory updated message appear—click this to get to the stored memories quickly.
+
+You can get to the same screen by clicking your profile picture (top right), then Settings and Personalization. The next screen lets you turn the memories feature on or off via a toggle switch, and you can also click Manage to see individual memories—just select the trash icon next to a memory to delete it.
+
+On both the memory settings page and the page showing the individual memories, use the Clear ChatGPT’s memory button to clear everything at once and reset. Another way to delete specific memories is in any of your conversations: Just type “forget…” followed by whatever it is you want ChatGPT to forget, and it’ll respond accordingly.
+
+Memories aren’t stored if you’re using any custom GPT bots you’ve created—they don’t have memories at all. Only chats with the main bot are saved, so one option if you don’t want certain things being kept in the data banks is to create a few of these additional bots with their own instructions and personalities.
+
+Another option for a conversation that isn’t recalled is a temporary chat. Click the name of the ChatGPT model you’re using in the chat (top left), then enable Temporary chat. Everything in the subsequent conversation gets forgotten, and ChatGPT won’t be able to form memories in temporary chat mode. It works a bit like an incognito window in your web browser.
