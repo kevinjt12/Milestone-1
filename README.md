@@ -94,3 +94,9 @@ In this milestone `Frequency Ranker` was updated with one additional method and 
 <img width="356" alt="Screenshot 2024-11-07 at 10 43 21 AM" src="https://github.com/user-attachments/assets/0583a07e-1af1-49aa-806d-daa68aae2d5d">
 
 # Semester Project: Milestone 3
+
+
+
+
+## Milestone 3 UML Diagram
+![Milestone3](https://github.com/user-attachments/assets/7522108c-cc49-4569-9c06-5ac3b09eecbd)
