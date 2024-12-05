@@ -97,7 +97,7 @@ In this milestone `Frequency Ranker` was updated with one additional method and 
 In this milestone we updated the program to include a user interface. Users will be able to add a new topic folder to a specific directory, add articles to topic folders, and select topics to be analyzed by the program. There were several updates made to the `ArticleProcessor` class and the `UserInterface` class was also added to the program. 
 
 ## ArticleProcessor Class
-In this milestone `ArticleProcessor` was updated with one additional fields and three additional methods so that it may handle options chosen from the user interface.
+In this milestone `ArticleProcessor` was updated with one additional field and three additional methods so that it may handle options chosen from the user interface.
 
 ### New Additional Field:
 - **`topics`**: A static HashMap that stores two Strings in key-value pairs. This represents topic folders and their respective directory paths.
