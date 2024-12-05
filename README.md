@@ -111,7 +111,7 @@ In this milestone `ArticleProcessor` was updated with one additional field and t
 The `UserInterface` class provides a text-based menu interface for interacting with the article analysis program. It contains one method, `printMenu()`, which displays a menu and handles user input for various operations.
 
 ### Methods:
-**`printMenu()`**: This static method displays an interactive console-based menu for the article analysis process, guiding users through different actions. It runs a loop until the user chooses to exit and performs operations based on the selected menu option:
+- **`printMenu()`**: This static method displays an interactive console-based menu for the article analysis process, guiding users through different actions. It runs a loop until the user chooses to exit and performs operations based on the selected menu option:
 
 **Select a topic:** Prompts the user to enter a topic name. If found using `ArticleProcessor.searchTopics()`, it reads and processes the articles associated with that topic using `ArticleProcessor.readFiles()`.
 
