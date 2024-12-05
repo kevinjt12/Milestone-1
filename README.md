@@ -103,7 +103,7 @@ In this milestone `ArticleProcessor` was updated with one additional field and t
 - **`topics`**: A static HashMap that stores two Strings in key-value pairs. This represents topic folders and their respective directory paths.
 
 ### New Additional Methods:
-- **`organizeTopics(String directoryPath, String topicName)`**: This static method creates a new folder within the specified directory, named according to the provided topicName. It uses the mkdirs() method to create the directory structure if it doesn't already exist. The method prints a success message if the folder is created, an informational message if the folder already exists, or an error message if folder creation fails. If any exceptions occur during the process, they are caught and printed. The method returns the absolute path of the newly created or existing folder.
+- **`organizeTopics(String directoryPath, String topicName)`**: This static method creates a new folder within the specified directory, named according to the provided topicName. It uses the `mkdirs()` method to create the directory structure if it doesn't already exist. The method prints a success message if the folder is created, an informational message if the folder already exists, or an error message if folder creation fails. If any exceptions occur during the process, they are caught and printed. The method returns the absolute path of the newly created or existing folder.
 - **`searchTopics(String topicName)`**: This static method searches for a topic by its name, or 'key', in the `topics` HashMap. If the topic exists, the method returns the corresponding directory path value associated with the topicName. If the topic is not found in the collection, it prints a message stating "Topic not found." and returns null. This method helps locate and retrieve information about a specific topic based on its name.
 - **`createTXTFile(String path, String content)`**: This static method creates a new text file in the specified directory `path` and writes the provided content into it. The file is named with a timestamp (article_<timestamp>.txt) to ensure a unique filename. It uses a `FileWriter` to write the content, appending it if the file already exists. If the file is created successfully, a confirmation message is printed. If an error occurs during file creation or writing, an error message with the exception details is displayed.
 
@@ -111,7 +111,7 @@ In this milestone `ArticleProcessor` was updated with one additional field and t
 The `UserInterface` class provides a text-based menu interface for interacting with the article analysis program. It contains one method, `printMenu()`, which displays a menu and handles user input for various operations.
 
 ### Methods:
--  **`printMenu()`**: This static method displays an interactive console-based menu for the article analysis process, guiding users through different actions. It runs a loop until the user chooses to exit and performs operations based on the selected menu option:
+**`printMenu()`**: This static method displays an interactive console-based menu for the article analysis process, guiding users through different actions. It runs a loop until the user chooses to exit and performs operations based on the selected menu option:
 
 **Select a topic:** Prompts the user to enter a topic name. If found using `ArticleProcessor.searchTopics()`, it reads and processes the articles associated with that topic using `ArticleProcessor.readFiles()`.
 
