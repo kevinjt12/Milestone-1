@@ -128,6 +128,8 @@ The method also handles invalid input, ensuring the user selects a valid option 
 ![Milestone3](https://github.com/user-attachments/assets/7522108c-cc49-4569-9c06-5ac3b09eecbd)
 
 # Semester Project Reflections
-- As a group we believe the program works pretty well and each milestone meets the requirements.
-- Something we would have done differently would be creating objects instead of making everything static.
+- As a group we believe the program overall works pretty well and each milestone meets the specified requirements.
+- Something we could have done differently would be creating objects/instaces of our classes instead of only using static methods.
+- We could have refactored the `UserInterface` class so that the it contains better instructions for the user to make the program easier to use/understand.
+- We also should have added comments to the code for readability and maintainability of the program.
 
