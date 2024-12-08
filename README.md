@@ -127,7 +127,7 @@ The method also handles invalid input, ensuring the user selects a valid option 
 ## Milestone 3 UML Diagram
 ![Milestone3](https://github.com/user-attachments/assets/7522108c-cc49-4569-9c06-5ac3b09eecbd)
 
-## Milestone 3 User Interface Examples
+## Milestone 3 User Interface Example Outputs
 <img width="637" alt="Screenshot_1" src="https://github.com/user-attachments/assets/37e10046-5622-49e8-9f62-2464f5c02cff">
 <img width="529" alt="Screenshot_2" src="https://github.com/user-attachments/assets/08babb24-f3e1-4f70-adfc-953091a225a3">
 <img width="366" alt="Screenshot_3" src="https://github.com/user-attachments/assets/248e29c5-28d7-4542-a66f-0af8d16f9f85">
@@ -138,7 +138,7 @@ The method also handles invalid input, ensuring the user selects a valid option 
 # Semester Project Reflections
 - As a group we believe the program overall works pretty well and each milestone meets the specified requirements.
 - Something we could have done differently would be creating objects/instaces of our classes instead of only using static methods.
-- We could have refactored the `UserInterface` class so that the it contains better instructions for the user to make the program easier to use/understand.
+- We could have refactored the `UserInterface` class so that it contains better instructions for the user, making the program easier to use/understand.
 - We also should have added comments to the code for readability and maintainability of the program.
 - Overall this project provided a great learning opportunity and it was very interesting to work on.
 
