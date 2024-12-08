@@ -1,3 +1,9 @@
+[Milestone 1](https://github.com/kevinjt12/Semester-Project/edit/main/README.md#semester-project-milestone-1)
+
+[Milestone 2](https://github.com/kevinjt12/Semester-Project/edit/main/README.md#semester-project-milestone-2)
+
+[Milestone 3](https://github.com/kevinjt12/Semester-Project/edit/main/README.md#semester-project-milestone-3)
+
 # Semester Project: Milestone 1
 
 ### Group Members: Kevin Torrealba, Nicholas Murphy, Kevin Carcamo
