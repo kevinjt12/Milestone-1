@@ -132,5 +132,5 @@ The method also handles invalid input, ensuring the user selects a valid option 
 - Something we could have done differently would be creating objects/instaces of our classes instead of only using static methods.
 - We could have refactored the `UserInterface` class so that the it contains better instructions for the user to make the program easier to use/understand.
 - We also should have added comments to the code for readability and maintainability of the program.
-- Overall this project provided great learning opportunity and it was very interesting to work on.
+- Overall this project provided a great learning opportunity and it was very interesting to work on.
 
