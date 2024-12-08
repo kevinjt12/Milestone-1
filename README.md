@@ -127,6 +127,14 @@ The method also handles invalid input, ensuring the user selects a valid option 
 ## Milestone 3 UML Diagram
 ![Milestone3](https://github.com/user-attachments/assets/7522108c-cc49-4569-9c06-5ac3b09eecbd)
 
+## Milestone 3 User Interface Examples
+<img width="637" alt="Screenshot_1" src="https://github.com/user-attachments/assets/37e10046-5622-49e8-9f62-2464f5c02cff">
+<img width="529" alt="Screenshot_2" src="https://github.com/user-attachments/assets/08babb24-f3e1-4f70-adfc-953091a225a3">
+<img width="366" alt="Screenshot_3" src="https://github.com/user-attachments/assets/248e29c5-28d7-4542-a66f-0af8d16f9f85">
+<img width="733" alt="Screenshot_4" src="https://github.com/user-attachments/assets/e7fdb922-a263-4410-ba2e-3a5ef1d91f04">
+<img width="635" alt="Screenshot_5" src="https://github.com/user-attachments/assets/6641a057-8e93-4d5f-9c24-dbe96be0c145">
+<img width="296" alt="Screenshot_10" src="https://github.com/user-attachments/assets/47e3e2d7-fa2a-4d9a-aceb-36b5b95f2b11">
+
 # Semester Project Reflections
 - As a group we believe the program overall works pretty well and each milestone meets the specified requirements.
 - Something we could have done differently would be creating objects/instaces of our classes instead of only using static methods.
